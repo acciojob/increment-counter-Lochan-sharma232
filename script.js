@@ -9,5 +9,6 @@ myBtn.addEventListener("click",(e)=>{
 	mouse();
 });
 alert("localhost:3000 says");	
+
 				   
 					   
