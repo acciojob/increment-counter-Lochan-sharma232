@@ -5,9 +5,9 @@ function mouse(){
 }
 let myBtn=document.getElementById("Btn");
 myBtn.addEventListener("click",(e)=>{
-
 	console.log("clicked!!",e);
+	mouse();
 });
-alert(localhost:3000 says);	
+alert("localhost:3000 says");	
 				   
 					   
