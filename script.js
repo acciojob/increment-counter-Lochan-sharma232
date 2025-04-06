@@ -3,6 +3,7 @@ function mouse(){
 	let count=0;
 	count++;
 }
+alert()
 let myBtn=document.getElementById("Btn");
 myBtn.addEventListener("click",(e)=>{
 	console.log("clicked!!",e);
