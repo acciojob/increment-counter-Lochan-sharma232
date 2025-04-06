@@ -6,7 +6,7 @@ function mouse(){
 	para.innerText=`${counter}`; 
 	alert(count)
 }
-let myBtn=document.getElementById("increementBtn");
+let myBtn=document.getElementById("incrementBtn");
 myBtn.addEventListener("click",(e)=>{
 	console.log("clicked!!",e);
 	mouse();
