@@ -3,7 +3,7 @@ let count=0;
 function mouse(){
 	count++;
 }
-let myBtn=document.getElementById("Btn");
+let myBtn=document.getElementById("increementBtn");
 myBtn.addEventListener("click",(e)=>{
 	console.log("clicked!!",e);
 	mouse();
