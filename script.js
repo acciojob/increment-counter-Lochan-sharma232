@@ -3,7 +3,7 @@ let para=document.getElementById("counter");
 let count=0;
 function mouse(){
 	count++;
-	para.innerText=`${counter}`; 
+	para.innerHTML=count; 
 	alert(count)
 }
 let myBtn=document.getElementById("incrementBtn");
